@@ -1,0 +1,296 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  color: #000;
+}
+
+body{
+  background-color: #fff;
+}
+
+/* Header */
+
+header{
+  width: 100%;
+  height: 100px;
+
+  background-color: #fff;
+}
+
+.header-div{
+  max-width: 1600px;
+  width: 85%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.header-div h1{
+  font-family: Josefin Sans;
+  cursor: pointer;
+}
+
+.header-div a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Kdam Thmor Pro;
+
+  padding: 12px 22px;
+  color: #fff;
+
+  background-color: #11193D;
+  border-radius: 25px;
+  transition: all .6s ease;
+}
+
+.header-div a:hover{
+  color: #11193D;
+  background-color: #fff;
+  border: .7px solid rgba(0, 0, 0, 0.558);
+}
+
+/* Main */
+
+main{
+  width: 100%;
+  height: 100%;
+}
+
+.container-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.main-1{
+  flex: 1;
+  padding: 5%;
+}
+
+.main-1 h1{
+  width: 50%;
+  font-family: Russo One;
+}
+
+.main-1 p{
+  padding: 30px 20% 50px 0;
+  color: #808080;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-1 a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Kdam Thmor Pro;
+
+  padding: 12px 22px;
+  color: #fff;
+
+  border-radius: 25px;
+  background: linear-gradient(#FE6754, #F23497);
+  transition: all 1s linear;
+}
+
+.main-1 a:hover{
+  background: #fff;
+  color: #FE6754;
+  border: .7px solid #F23497;
+}
+
+.main-2{
+  flex: 1;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-follow{
+  margin-top: 20px;
+
+  height: 400px;
+  width: 300px;
+
+  background: linear-gradient(#F23497, #FE6754);
+  border-radius: 100px 20px 100px 20px;
+}
+
+.container-info{
+  position: absolute;
+}
+
+.circle-content .course{
+  position: absolute;
+  background-color: #fff;
+
+  padding: 20px 30px;
+
+  top: 220px;
+  left: -30px;
+
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.circle-content .course h1{
+  font-family: Russo One;
+  padding: 5px 0 0 0;
+}
+
+.circle-content .course p{
+  width: 80px;
+}
+
+.circle-content .menbers{
+  position: absolute;
+  background-color: #fff;
+
+  padding: 20px 30px;
+
+  top: 65px;
+  left: 210px;
+
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.circle-content .menbers h1{
+  font-family: Russo One;
+  padding: 5px 0 0 0;
+}
+
+/* First section */
+
+.container-inf-cards{
+  padding: 7%;
+  background: linear-gradient(#fff, #EFF1FF);
+}
+
+.container-cards{
+  width: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin: 0 auto;
+}
+
+.container-cards .card{
+  height: 350px;
+  width: 350px;
+
+  background-color: #fff;
+  border-radius: 15px;
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.container-cards .card .icon{
+  width: 50px;
+  height: 50px;
+
+  background: linear-gradient(#F23497, #FE6754);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+}
+
+.container-cards .card .icon i{
+  color: #fff;
+}
+
+.container-cards .card h1{
+  font-family: Fredoka One;
+}
+
+.container-cards .card p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #808080;
+}
+
+.container-cards .card a{
+  text-decoration: none;
+  font-size: 17px;
+  color: #F23497;
+  font-family: Kdam Thmor Pro;
+  transition: all .3s linear;
+}
+
+.container-cards .card a:hover{
+  color: #FE6754;
+}
+
+.special{
+  background: linear-gradient(#FE6754, #F23497);
+}
+
+.special h1{
+  color: #fff;
+  font-size: 40px;
+}
+
+footer{
+  background-color: #13183E;
+}
+
+.footer{
+  height: 85px;
+  color: #fff;
+  max-width: 1600px;
+  width: 85%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.h1-footer{
+  font-family: Josefin Sans;
+  cursor: pointer;
+  color: #fff;
+}
+
+.a-footer{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Kdam Thmor Pro;
+
+  padding: 12px 22px;
+  color: #000;
+
+  background-color: #11193D;
+  border-radius: 25px;
+  transition: all .3s linear;
+  background: linear-gradient(#8F40DD, #F02EA1);
+}
+
+.a-footer:hover{
+  color: #fff;
+  border: #fff .7px solid;
+  background: #13183E;
+}
